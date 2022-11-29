@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/pojessi/Desktop/javafx-swt.jar",
+        "/Users/pojessi/Desktop/javafx.base.jar",
+        "/Users/pojessi/Desktop/javafx.controls.jar",
+        "/Users/pojessi/Desktop/javafx.fxml.jar",
+        "/Users/pojessi/Desktop/javafx.graphics.jar",
+        "/Users/pojessi/Desktop/javafx.media.jar",
+        "/Users/pojessi/Desktop/javafx.swing.jar",
+        "/Users/pojessi/Desktop/javafx.web.jar"
+    ]
+}
