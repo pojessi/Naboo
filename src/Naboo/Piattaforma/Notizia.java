@@ -1,3 +1,5 @@
+package Naboo.Piattaforma;
+
 import com.rometools.rome.feed.synd.SyndEntry;
 
 import java.io.BufferedWriter;

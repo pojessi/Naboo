@@ -1,3 +1,5 @@
+package Naboo.Piattaforma;
+
 import java.io.IOException;
 
 public class main {
