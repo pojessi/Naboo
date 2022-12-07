@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+.button {
+    -fx-background-color: #fff0f5;
+    -fx-font-size: 20;
+    -fx-text-fill: #50494c;
+    -fx-background-radius: 10;  
+           
+}
+
+.button:hover {
+     
+    -fx-background-color: #d3b7c1;
+    -fx-font-size: 20;
+    -fx-background-radius: 10;
+    -fx-border-width: 5;
+    -fx-rotate: 10;   
+    
+}

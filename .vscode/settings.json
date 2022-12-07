@@ -1,0 +1,22 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/pojessi/Desktop/javafx-swt.jar",
+        "/Users/pojessi/Desktop/javafx.base.jar",
+        "/Users/pojessi/Desktop/javafx.controls.jar",
+        "/Users/pojessi/Desktop/javafx.fxml.jar",
+        "/Users/pojessi/Desktop/javafx.graphics.jar",
+        "/Users/pojessi/Desktop/javafx.media.jar",
+        "/Users/pojessi/Desktop/javafx.swing.jar",
+        "/Users/pojessi/Desktop/javafx.web.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx-swt.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx.base.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx.controls.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx.fxml.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx.graphics.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx.media.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx.swing.jar",
+        "/Users/pojessi/Documents/NetBeansJava/javafx-sdk-19/lib/javafx.web.jar",
+        "/Users/pojessi/Desktop/rome-master/**/*.jar"
+    ]
+}

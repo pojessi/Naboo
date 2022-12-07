@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="667.0" style="-fx-background-color: #87b09f;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.naboo.javaFX.PannelloAmministratoreController">
+    <children>
+        <VBox fx:id="home" layoutX="1.0" prefHeight="500.0" prefWidth="187.0">
+            <children>
+                <Button fx:id="indietro" mnemonicParsing="false" onAction="#switchToWelcomePanel" text="Indietro" textAlignment="CENTER">
+                    <font>
+                        <Font name="AppleGothic Regular" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="aggiungiFonte" mnemonicParsing="false" onAction="#aggiungiFonte" text="Aggiungi fonte" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets top="30.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="AppleGothic Regular" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="aggiungiNotizia" mnemonicParsing="false" onAction="#aggiungiNotizia" text="Aggiungi notizia" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets top="50.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="AppleGothic Regular" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="rimuoviFonte" mnemonicParsing="false" onAction="#rimuoviFonte" text="Rimuovi Fonte" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets top="70.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="AppleGothic Regular" size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

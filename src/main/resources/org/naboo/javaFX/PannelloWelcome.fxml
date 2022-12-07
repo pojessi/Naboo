@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #87b09f;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.naboo.javaFX.PannelloWelcomeController">
+    <children>
+          <Text fx:id="text" fill="#000000f2" fontSmoothingType="LCD" layoutX="62.0" layoutY="162.0" smooth="false" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Naboo" textAlignment="CENTER" wrappingWidth="391.82501220703125">
+              <font>
+                  <Font name="Apple Chancery" size="48.0" />
+              </font>
+          </Text>
+          <Button fx:id="admin" alignment="CENTER" layoutX="687.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToPannelloAmm" prefHeight="27.0" prefWidth="99.0" text="Admin" textAlignment="CENTER">
+              <font>
+                  <Font name="AppleGothic Regular" size="13.0" />
+              </font>
+          </Button>
+      <Label alignment="CENTER" layoutX="151.0" layoutY="182.0" prefHeight="149.0" prefWidth="303.0" text="If you are an User scan this to:&#10;READ &#10;SHARE &#10;COMMENT&#10;...News!" textAlignment="RIGHT" wrapText="true">
+         <font>
+            <Font name="Cochin" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="myimageView" fitHeight="233.0" fitWidth="274.0" layoutX="463.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="233.0" fitWidth="200.0" layoutX="500.0" layoutY="98.0">
+         <image>
+            <Image url="@../../../../java/org/naboo/javaFX/QRCodeNaboo.jpg" />
+         </image>
+      </ImageView>
+    </children>
+   <effect>
+      <InnerShadow choke="0.56" height="209.68" radius="51.92" width="0.0">
+         <color>
+            <Color red="0.3323586881160736" green="0.5789473652839661" blue="0.533739447593689" />
+         </color>
+      </InnerShadow>
+   </effect>
+</AnchorPane>
